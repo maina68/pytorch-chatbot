@@ -1,0 +1,136 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "academic information",
+        "patterns": [
+          "What is my class schedule?",
+          "When is my next exam?",
+          "What is my attendance record?",
+          "What is my grade in math?"
+        ],
+        "responses": [
+          "Your class schedule is Monday to Friday from 8 AM to 2 PM",
+          "Your next exam is on Friday, March 18th",
+          "Your attendance record shows you have missed 5 classes this semester",
+          " Your grade in math is an A"
+        ]
+      },
+      {
+        "tag": "extracurricular_activities",
+        "patterns": [
+          "What events are happening this week?",
+          "How do I register for the basketball team?",
+          "When is the next chess club meeting?", 
+          "Are there any volunteer opportunities available?"
+        ],
+        "responses": [
+          "There is a charity fundraiser event happening on Thursday.",
+          "You can register for the basketball team by filling out the registration form in the school office.",
+          "The next chess club meeting is on Wednesday at 3 PM",
+          "Yes, there are several volunteer opportunities available. Please check the school website for more details."
+        ]
+      },
+      {
+        "tag": "administrative_information",
+        "patterns": [
+          "What are the school policies?", 
+          "How do I enroll in a new class?", 
+          "How much are the school fees?", 
+          "What is the bus schedule?"
+        ],
+        "responses": [
+          "You can find the school policies and procedures in the student handbook", 
+          "To enroll in a new class, please speak to your academic advisor", 
+          "The school fees are $5,000 per semester", 
+          "The bus schedule is available on the school website."
+        ]
+      },
+      {
+        "tag": "support_services",
+        "patterns": [
+          "Where can I find academic support resources?", 
+          "How do I schedule a counseling appointment?", 
+          "What special education services are available?", 
+          "Where can I find health and wellness information?"],
+        "responses": [
+          "Academic support resources are available in the school library", 
+          "To schedule a counseling appointment, please speak to your guidance counselor", 
+          "Special education services are available for students with special needs. Please contact the special education department for more information",
+          "Health and wellness information is available on the school website."
+        ]
+    },
+    {
+        "tag": "communication",
+        "patterns": [
+          "How can I message my teacher?", 
+          "When is the next parent-teacher meeting?", 
+          "Where can I find the school newsletter?", 
+          "How do I give feedback or complaints?"],
+        "responses": [
+          "You can message your teacher through the school's messaging system", 
+          "The next parent-teacher meeting is on Thursday, March 24th", 
+          "The school newsletter is available on the school website", 
+          "To give feedback or complaints, please speak to the school administration."
+        ]
+    },
+    {
+        "tag": "general_information",
+        "patterns": [
+          "What are the school holidays?", 
+          "Where is the school library?", 
+          "What are the school facilities?", 
+          "What are the school rules and regulations?"
+        ],
+        "responses": [
+          "The school holidays are listed on the school calendar",
+          "The school library is located on the second floor of the main building", 
+          "The school facilities include a gymnasium, a cafeteria, and a science lab", 
+          "The school rules and regulations are available in the student handbook."
+        ]
+    },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
+  
